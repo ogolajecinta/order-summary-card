@@ -1,0 +1,15 @@
+@media screen {
+    body{
+        display: grid;
+        font-family: 'Red Hat Display', sans-serif;
+        
+    }
+    h2{
+        font-weight: 700;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--desaturated-blue);
+    }
+}
