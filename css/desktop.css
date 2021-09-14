@@ -1,0 +1,7 @@
+@media only screen and (min-width:1440px){
+    body{
+        display: grid;
+        font-family: 'Red Hat Display', sans-serif;
+        background-image: url(/images/pattern-background-desktop.svg);  
+    }
+}
