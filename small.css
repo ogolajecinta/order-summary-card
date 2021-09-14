@@ -14,23 +14,78 @@
         background-color: var(--pale-blue);
         background-position: top;
     }
-    .container {
+    .container{
+        width: 100vw;
+        height: 100vh;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
-        width: 100%;
-        margin: 10px;
-      }
-         
-    .order-summary h2{
-        font-weight: 700;
-    }
-    .order-summary p{
-        font-size: 16px;
-        font-weight: 500;
-        color: var(--desaturated-blue);
     }
 
-    .payment-plan{
-        display:flex;
-        padding-left: 30px;
+    .card-body{
+        width: 85%;
+        margin-top: 7rem;
+        background-color: white;
+        border-radius: 2rem;
+    }
+
+    .card-body .hero{
+            width: 100%;
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+
+    }
+
+    .card-body .order-summary{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+    }
+
+    .card-body .order-summary .title{
+        font-size: 2.2rem;
+        font-weight: 900;
+
+    }
+    .card-body .order-summary .description{
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: var(--desaturated-blue);
+        padding: 1.6rem 1rem;
+        line-height: 2.4rem;
+        text-align: center;
+
+    }
+    .card-body .payment-plan{
+        background-color: var(--very-pale-blue);
+        width: 100%;
+        border-radius: 1.5rem;
+        margin: 0.8rem 0;
+        padding: 1.6rem 1.2rem;
+    }
+    .card-body .payment-plan .list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .card-body .payment-plan .plan{
+        color: var(--dark-blue);
+        font-size: 1.4rem;
+        font-weight: 900;
+    }
+    .card-body .payment-plan .price{
+        color: var(--desaturated-blue);
+        font-size: 1.4rem;
+        font-weight: 700;
+        opacity: 0.5;
+    }
+    .card-body .payment-plan a{
+        text-decoration: none;
+        opacity: 0.75;
+
+    }
+    
