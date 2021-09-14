@@ -11,9 +11,10 @@
   <!--Fav icon-->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/small.css">
+  <link rel="stylesheet" href="/variables.css">
 
   <!--
-  <link rel="stylesheet" href="/variables.css">
+  
   <link rel="stylesheet" href="/desktop.css">
   -->
   
@@ -28,24 +29,29 @@
 <body>
 <div class="container">
   <div class="card-body">
-    <div class="card-image">
-      <img src="/images/illustration-hero.svg" alt="illustration-hero">
-    </div>
+      <img class="hero" src="/images/illustration-hero.svg" alt="illustration-hero">
+
     <div class="order-summary">
-      <h2>Order Summary</h2>
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+      <h1 class="title">Order Summary</h1>
+      <p class="description">You can now listen to millions of songs, audiobooks, and podcasts on any 
       device anywhere you like!</p>
     </div>
   
     <div class="payment-plan">
-      <img src="/images/icon-music.svg" alt="music icon">
-      <h6>Annual Plan</h6>
-      <p> $59.99/year</p>
-      <p><a href="#">Change </a></p>
+      <div class="list">
+       <div class="list">
+        <img src="/images/icon-music.svg" alt="music icon">
+          <div>
+            <div class="plan">Annual Plan</div>
+            <div class="price"> $59.99/year</div>
+          </div>
+        </div>
+        <p><a href=".">Change </a></p>
+      </div>
     </div>
 
-    <input class="payment-btn" type="submit" value="Proceed to Payment">
-  <p>Cancel Order</p>
+    <div class="btn primary">Proceed To Pay</div>
+    <div class="btn secondary">Cancel Order</div>
 
   </div>
 </div>
