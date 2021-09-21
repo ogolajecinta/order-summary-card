@@ -1,7 +1,147 @@
 @media only screen and (min-width:1440px){
-    body{
-        display: grid;
-        font-family: 'Red Hat Display', sans-serif;
-        background-image: url(/images/pattern-background-desktop.svg);  
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+        html{
+            font-size: 62.5%;
+        }
+        body{
+            font-family: 'Red Hat Display', sans-serif;
+            background-image: url(/images/pattern-background-desktop.svg); 
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-color: var(--pale-blue);
+            background-position: top;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+    
+    .container .card-body{
+            width: 35%;
+            margin-top: 2rem;
+            background-color: white;
+            border-radius: 2rem;
+            margin: 3rem auto;
+        }
+    
+    .card-body .hero{
+                width: 100%;
+                border-top-left-radius: 2rem;
+                border-top-right-radius: 2rem;
+    
+        }
+    
+    .card-body .order-summary{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem 4.5rem;
+        }
+    
+    .card-body .order-summary .title{
+            font-size: 2.8rem;
+            font-weight: 900;
+    
+        }
+    .card-body .order-summary .description{
+            font-size: 1.6rem;
+            font-weight: 500;
+            color: var(--desaturated-blue);
+            padding: 1.6rem 1rem;
+            line-height: 2.55rem;
+            text-align: center;
+    
+        }
+    .card-body .payment-plan{
+            background-color: var(--very-pale-blue);
+            width: 80%;
+            border-radius: 1.5rem;
+            margin: 0.4rem auto;
+            padding: 2.2rem 2.4rem;
+    
+        }
+    .card-body .payment-plan .list{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2.2rem;
+    
+        }
+    .card-body .payment-plan .plan{
+            color: var(--dark-blue);
+            font-size: 1.6rem;
+            font-weight: 900;
+            margin-bottom: 0.5rem;
+        }
+    .card-body .payment-plan .price{
+            color: var(--desaturated-blue);
+            font-size: 1.6rem;
+            font-weight: 700;
+            opacity: 0.5;
+        }
+        
+    .card-body .payment-plan a{
+            color: var(--bright-blue);
+            font-size: 1.5rem;
+            font-weight: 900;
+        }
+    .card-body .payment-plan a:hover{
+            text-decoration: none;
+            opacity: 0.75;
+        }
+        
+    .btn{
+            width:80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    .primary{
+            background-color: var(--bright-blue);
+            padding: 1.5rem;
+            margin: 3rem auto; 
+            border-radius: 1.5rem;
+            cursor: pointer;
+            box-shadow: 10px 10px 20px hsla(245, 75%, 52%, 0.15), 15px 15px 30px hsla(245, 75%, 52%, 0.15);
+        }
+    .primary:hover{
+            opacity: 0.7;
+        }
+    .primary a{
+            color: white;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+    .secondary{
+            padding: 0.8rem;
+            margin: 3rem auto;
+        }
+    
+    .secondary a{
+            color: var(--desaturated-blue);
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 700;
+            padding: 0 0 1rem 0;
+        }
+    a:hover{
+            color: var(--dark-blue);
+        }
+    
     }
+        
+        
+
 }
