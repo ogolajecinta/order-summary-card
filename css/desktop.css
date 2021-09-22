@@ -1,4 +1,4 @@
-@media only screen and (min-width:1440px){
+
     
     * {
         margin: 0;
@@ -19,9 +19,12 @@
         .container{
             width: 100vw;
             height: 100vh;
+            max-width: 1440px;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
+            margin: auto;
             
         }
     
@@ -141,4 +144,3 @@
         }
         
         
-}
