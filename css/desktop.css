@@ -27,7 +27,7 @@
         }
     
     .container .card-body{
-            width: 35%;
+            width: 100%;
             margin-top: 2rem;
             max-width:435px;
             background-color: white;
@@ -128,6 +128,9 @@
         }
     .secondary{
             padding: 0.8rem;
+            margin: auto;
+            
+        }
         }
     
     .secondary a{
@@ -135,9 +138,10 @@
             text-decoration: none;
             font-size: 1.5rem;
             font-weight: 700;
-        }
+            
     a:hover{
             color: var(--dark-blue);
+           
         }    
         
 }
