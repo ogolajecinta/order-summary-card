@@ -131,13 +131,13 @@
             margin: auto;
             
         }
-        }
     
     .secondary a{
             color: var(--desaturated-blue);
             text-decoration: none;
             font-size: 1.5rem;
             font-weight: 700;
+    }
             
     a:hover{
             color: var(--dark-blue);
