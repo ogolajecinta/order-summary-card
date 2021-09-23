@@ -18,7 +18,6 @@ body{
 .container{
         width: 100vw;
         height: 100vh;
-        min-width:375px;
         display: flex;
         align-items: flex-start;
         justify-content: center;
@@ -26,6 +25,7 @@ body{
 
 .container .card-body{
         width: 75%;
+        max-width:435px;
         margin-top: 7rem;
         background-color: white;
         border-radius: 2rem;
@@ -131,7 +131,6 @@ body{
         text-decoration: none;
         font-size: 1.5rem;
         font-weight: 700;
-        padding: 0 0 1rem 0;
     }
 a:hover{
         color: var(--dark-blue);

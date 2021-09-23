@@ -19,7 +19,6 @@
         .container{
             width: 100vw;
             height: 100vh;
-            max-width: 1080px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -30,6 +29,7 @@
     .container .card-body{
             width: 35%;
             margin-top: 2rem;
+            max-width:435px;
             background-color: white;
             border-radius: 2rem;
             margin: 3rem auto;
@@ -128,7 +128,6 @@
         }
     .secondary{
             padding: 0.8rem;
-            margin: 3rem auto;
         }
     
     .secondary a{
@@ -136,7 +135,6 @@
             text-decoration: none;
             font-size: 1.5rem;
             font-weight: 700;
-            padding: 0 0 1rem 0;
         }
     a:hover{
             color: var(--dark-blue);
