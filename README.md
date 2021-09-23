@@ -26,20 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](".\images\screenshots\desktop-screencapture.png")
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Desktop design]("/images/screenshots/desktop-screencapture.png")
+![Mobile design]("/images/screenshots/mobile-screencapture.png")
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ogolajecinta/order-summary-card)
-- Live Site URL: [Add live site URL here](https://ogolajecinta.github.io/order-summary-card/)
+- Solution URL: [here](https://github.com/ogolajecinta/order-summary-card)
+- Live Site URL: [here](https://ogolajecinta.github.io/order-summary-card/)
 
 ## My process
 
@@ -55,48 +48,22 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 My major areas of learning in this challenge was understanding the box model, how to apply margin and paddings around elements. I also learnt how to use css flex display property.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I have not mastered using media queries and had a lot of difficulties initially. Also the concepts of specificity in selectors and using css grid as an alternative for responsive design. 
+Improving my CSS to SCSS
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Hubspot](https://blog.hubspot.com/website/css-margin-vs-padding) - This helped me understand the difference between margin and padding and when to use each of them.
 
 ## Author
 
 - Website - [Jecinta Ogola](https://github.com/ogolajecinta)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ogolajecinta)
+- Frontend Mentor - [@ogolajecinta](https://www.frontendmentor.io/profile/ogolajecinta)
 - Twitter - [@ogolajecinta](https://www.twitter.com/ogolajecinta)
 
 ## Acknowledgments
-I would like to acknowledge the help offered by my bestriend [Juliet Mutinda](https://github.com/msmutinda) when I couldn't figure out how to position the buttons well.
+I would like to acknowledge the help offered by my bestfriend [Juliet Mutinda](https://github.com/msmutinda) when I couldn't figure out how to position the buttons well.
 
 
